@@ -3,7 +3,7 @@ Ejemplo de consumo de una rest-api con RestTemple.
 # Requisitos
 * Mínimo JDK 11
 * Maven 3.8.2
-# Ejecución.
+# Ejecución
 * Ejecutar: mvn clean install
 # EndPoints
 * Consume (Get)
@@ -12,7 +12,7 @@ Ejemplo de consumo de una rest-api con RestTemple.
 # Referencia
  <a href="https://mockapi.io/docs">MockApi</a>
  
-# Soporte.
+# Soporte
 pablos.ganan@gmail.com
 
 
