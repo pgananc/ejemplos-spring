@@ -1,6 +1,0 @@
-com\prueba\TestsServiceApplication.class
-com\prueba\modelo\Empleado.class
-com\prueba\controller\EmpleadoController.class
-com\prueba\repositorio\IEmpleadoRepo.class
-com\prueba\servicio\impl\EmpleadoServicioImpl.class
-com\prueba\servicio\IEmpleadoServicio.class

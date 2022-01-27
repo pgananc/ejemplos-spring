@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.prueba.test.EmpleadoControllerIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.386 s - in com.prueba.test.EmpleadoControllerIntegrationTest
