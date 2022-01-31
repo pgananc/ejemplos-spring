@@ -4,7 +4,7 @@ Migración de datos con flyway.
 * Mínimo JDK 11
 * Maven 3.8.2
 
-# Ejecución.
+# Ejecución
 * Ejecutar: mvn spring-boot:run
 
 # EndPoints
@@ -20,5 +20,5 @@ Migración de datos con flyway.
 * <a href="https://jsonpath.com/">JsonPath</a>.
 
 
-# Soporte.
+# Soporte
 pablos.ganan@gmail.com
