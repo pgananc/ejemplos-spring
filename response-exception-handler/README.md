@@ -17,7 +17,7 @@ Handler para excepción de respuesta cuando no cumple una validación del modelo
     
 * Get. Búsqueda por id.
  
-  	- http://localhost:8080/api/v1/employees/1
+  	- http://localhost:8080/api/v1/employees/Marcos
 
 # Soporte.
 pablos.ganan@gmail.com
