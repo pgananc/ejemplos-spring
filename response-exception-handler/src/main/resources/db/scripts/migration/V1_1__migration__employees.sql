@@ -1,0 +1,15 @@
+INSERT INTO PUBLIC.employee VALUES (1, 'pepito','perez');
+INSERT INTO PUBLIC.employee VALUES (2, 'juanito','camelas');
+INSERT INTO PUBLIC.employee VALUES (3, 'pablito','chala');
+INSERT INTO PUBLIC.employee VALUES (4, 'pedrito','cortez');
+INSERT INTO PUBLIC.employee VALUES (5, 'marcus','lopez');
+INSERT INTO PUBLIC.employee VALUES (6, 'luis','perez');
+INSERT INTO PUBLIC.employee VALUES (7, 'carlos','perez');
+INSERT INTO PUBLIC.employee VALUES (8, 'matias','perez');
+INSERT INTO PUBLIC.employee VALUES (9, 'lucas','rodas');
+INSERT INTO PUBLIC.employee VALUES (10, 'jose','jaramillo');
+INSERT INTO PUBLIC.employee VALUES (11, 'elvin','zamora');
+INSERT INTO PUBLIC.employee VALUES (12, 'pedro','astudillo');
+INSERT INTO PUBLIC.employee VALUES (13, 'patricio','salazar');
+INSERT INTO PUBLIC.employee VALUES (14, 'marco','perez');
+INSERT INTO PUBLIC.employee VALUES (15, 'pepito','perez');
