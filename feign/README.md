@@ -1,5 +1,5 @@
-# migration-data-flyway
-Migración de datos con flyway.
+# feign
+Utilización de feign para consumo de servicios.
 # Requisitos
 * Mínimo JDK 11
 * Maven 3.8.2
@@ -9,15 +9,18 @@ Migración de datos con flyway.
 
 # EndPoints
 
-* Get. Generación de migración.
+* Post. Generación de migración.
 
-	  http://localhost:8080/api/v1/employees/pageable-migration
+	 http://localhost:8081/api/v1/employees/Sistemas
+	 
+	{
+	"firstName":"John",
+	"lastName":"Rambo"
+	}
 
 # Referencias
 
-* <a href="https://flywaydb.org/">Flyway</a>.
-* <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization.using-basic-sql-scripts">Database Migrations</a>.
-* <a href="https://jsonpath.com/">JsonPath</a>.
+* <a href="https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html">Feign</a>.
 
 
 # Soporte
