@@ -18,7 +18,7 @@ Ejemplo de CRUD básico.
 * Update (Put)
   - http://localhost:8080/api/v1/employees
     * Example:
-      {
+      { "id":1,
 	"firstName":"John",
 	"lastName":"Susnavas"
     }
