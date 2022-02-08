@@ -1,4 +1,4 @@
-package com.example.pageable;
+package com.example;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -18,23 +18,20 @@ class IntegrationRestDepartmentControllerTests {
 
 	@Autowired
 	private MockMvc mockMvc;
-	
 
-	
 	@Test
-	public void cuandoConsultaDepartementos_entoncesRetornaTodosDepartametos() throws Exception{
+	public void cuandoConsultaDepartementos_entoncesRetornaTodosDepartametos() throws Exception {
 		mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/deparments").accept(MediaType.APPLICATION_JSON))
-		.andDo(print()).andExpect(status().isOk())
-		.andExpect(MockMvcResultMatchers.jsonPath("$.[0].name").value("Ventas"));
+				.andDo(print()).andExpect(status().isOk())
+				.andExpect(MockMvcResultMatchers.jsonPath("$.[0].name").value("Ventas"));
 	}
-	
+
 	@Test
 	public void dadoNombreDepartamento_entoncesDevuleveDepartamento() throws Exception {
-		String nameDepartament="Ventas";
-		mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/deparments/".concat(nameDepartament)).accept(MediaType.APPLICATION_JSON))
-		.andExpect(status().isOk())
-		.andExpect(MockMvcResultMatchers.jsonPath("$.name").isNotEmpty());
+		String nameDepartament = "Ventas";
+		mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/deparments/".concat(nameDepartament))
+				.accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk())
+				.andExpect(MockMvcResultMatchers.jsonPath("$.name").isNotEmpty());
 	}
-	
-	
+
 }
