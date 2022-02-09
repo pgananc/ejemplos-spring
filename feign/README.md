@@ -17,6 +17,8 @@ Utilización de feign para consumo de servicios.
 	"firstName":"John",
 	"lastName":"Rambo"
 	}
+# Testing
+* Para las prueba de integración subir primero el servicio department-service.
 
 # Referencias
 
