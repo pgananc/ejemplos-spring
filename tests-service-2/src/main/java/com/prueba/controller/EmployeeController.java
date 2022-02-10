@@ -22,7 +22,7 @@ import com.prueba.exception.EmployeeNotFoundException;
 import com.prueba.modelo.Employee;
 import com.prueba.servicio.IEmployeeService;
 
-import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 
 @RestController
 @RequestMapping("/api/v1/employees")
@@ -31,7 +31,7 @@ public class EmployeeController {
 	@Autowired
 	IEmployeeService employeeService;
 
-	@ApiOperation(value = "Retrieves a list of all Employee records")
+	@ApiResponse(description = "Retrieves a list of all Employee records")
 	@GetMapping
 	public ResponseEntity<List<Employee>> getAllEmployees() {
 
@@ -42,7 +42,7 @@ public class EmployeeController {
 		return new ResponseEntity<List<Employee>>(employees, HttpStatus.OK);
 	}
 
-	@ApiOperation(value = "Retrives a single Employee record by its id")
+	@ApiResponse(description = "Retrives a single Employee record by its id")
 	@GetMapping(value = "{id}")
 	public ResponseEntity<Employee> getEmployeeById(@PathVariable(value = "id") Long id) {
 
@@ -53,21 +53,21 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(employeeToUpdate.get(), HttpStatus.OK);
 	}
 
-	@ApiOperation(value = "Create a new Employee record. JSON payload will be validated")
+	@ApiResponse(description = "Create a new Employee record. JSON payload will be validated")
 	@PostMapping(value = "/create", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Employee> createEmployee(@Valid @RequestBody Employee createEmployee) {
 		Employee employeeSave = employeeService.createEmployee(createEmployee);
 		return new ResponseEntity<Employee>(employeeSave, HttpStatus.CREATED);
 	}
 
-	@ApiOperation(value = "Update an existing Employee record. Will not create new record if Employee does not already exist")
+	@ApiResponse(description  = "Update an existing Employee record. Will not create new record if Employee does not already exist")
 	@PutMapping(value = "/update/{id}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Employee> updateEmployee(@PathVariable Long id, @Valid @RequestBody Employee Employee) {
 		Employee employeeUpdate = employeeService.updateEmployee(id, Employee);
 		return new ResponseEntity<Employee>(employeeUpdate, HttpStatus.ACCEPTED);
 	}
 
-	@ApiOperation(value = "Delete an existing Employee record using its Id")
+	@ApiResponse(description = "Delete an existing Employee record using its Id")
 	@DeleteMapping("/{id}")
 	public ResponseEntity<Object> deleteEmployee(@PathVariable(value = "id") Long id) {
 		employeeService.deleteEmployee(id);
