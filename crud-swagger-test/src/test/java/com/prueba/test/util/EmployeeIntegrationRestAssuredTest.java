@@ -5,7 +5,6 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.port;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.hasItems;
 
 import java.time.LocalDate;
 
@@ -22,7 +21,7 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
-import static org.hamcrest.Matchers.*;
+
 import com.prueba.TestsServiceApplication;
 import com.prueba.modelo.Employee;
 
@@ -32,7 +31,7 @@ import io.restassured.response.ValidatableResponse;
 @TestInstance(Lifecycle.PER_CLASS)
 @ActiveProfiles({ "integration" })
 @TestMethodOrder(OrderAnnotation.class)
-public class EmployeeIntegrationValidatableResponseTest {
+public class EmployeeIntegrationRestAssuredTest {
 	@Value("${local.server.port}")
 	private int ports;
 
