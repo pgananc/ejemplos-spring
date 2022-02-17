@@ -4,6 +4,7 @@ Ejemplos de spring boot.
 Aquí encontrará diferentes proyectos en spring boot para realizar: 
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/crud-sample">CRUD</a>: Creación de CRUD básico.
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/tests-service/">Testing</a>: Pruebas unitarias de integración sobre: Repository, Service y Controller.
+* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/crud-swagger-test/">Testing RestTemplate y RestAssured</a>: Pruebas endpoints y documentacion swagger.
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/pageable">Paginación</a>: Servicio para paginación de consulta.
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/response-exception-handler">Response Exception Handler</a>: Handler para excepciones de response se servicios REST.
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/consume-rest-api">Consumo de Rest Api</a>: Consumo de información de un mock Api mediante el uso de RestTemplate.
