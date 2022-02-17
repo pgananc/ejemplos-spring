@@ -1,5 +1,5 @@
 # tests-service
-Ejemplo de pruebas de integración con JUnit de Repository, Service y Controller.
+Ejemplo de pruebas de endpoints con RestTemplate y RestAssured.
 # Requisitos
 * Mínimo JDK 11
 * Maven 3.8.2
