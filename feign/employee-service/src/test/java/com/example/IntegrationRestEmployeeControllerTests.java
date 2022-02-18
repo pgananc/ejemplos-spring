@@ -16,7 +16,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import com.example.model.Employee;
-import com.example.util.JsonUtil;
 
 @SpringBootTest
 @AutoConfigureMockMvc

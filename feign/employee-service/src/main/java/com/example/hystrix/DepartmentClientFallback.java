@@ -10,7 +10,7 @@ public class DepartmentClientFallback implements IDepartmentClient {
 
 	@Override
 	public DeparmentDto findOneByName(String name) {
-		return new DeparmentDto();
+		return DeparmentDto.builder().id(0l).name("").build();
 	}
 
 }
