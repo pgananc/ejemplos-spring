@@ -9,10 +9,10 @@ Aquí encontrará diferentes proyectos en spring boot para realizar:
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/response-exception-handler">Response Exception Handler</a>: Handler para excepciones de response se servicios REST.
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/consume-rest-api">Consumo de Rest Api</a>: Consumo de información de un mock Api mediante el uso de RestTemplate.
 * <a href="https://github.com/pgananc/ejemplos-spring/tree/main/consume-rest-api-authorization">Consumo Rest Api de registro con autorización</a>: Registro de información mediante el uso de mock Api con autorización.
-* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/migration-data-flyway">Migración BDD con flyway</a>: Migración de script de datos a una tabla.
-* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/feign">Feign</a>: Consumo de servicios con feing para descubrimiento.
-* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/crud-redis-cache-sample">Redis</a>:Base de datos en memoria con redis.
-
+* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/migration-data-flyway">Migración BDD con flyway: </a> Migración de script de datos a una tabla.
+* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/feign">Feign: </a>Consumo de servicios con feing para descubrimiento.
+* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/crud-redis-cache-sample">Redis: </a>:Base de datos en memoria con redis.
+* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/eureka-server">Eureka: </a>Descubrimiento de servicios con eureka.
 
 # Soporte
 pablos.ganan@gmail.com
