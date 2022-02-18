@@ -12,5 +12,4 @@ public class DepartmentClientFallback implements IDepartmentClient {
 	public DeparmentDto findOneByName(String name) {
 		return DeparmentDto.builder().id(0l).name("").build();
 	}
-
 }
