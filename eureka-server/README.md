@@ -8,7 +8,7 @@ Utilización de eureka-server para descubrimiento de servicios.
 # Ejecución
 * Ejecutar:mvn spring-boot:run
 	* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/eureka-server/department-service">department-service</a>. 
-	* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/eureka-server/employee-service-client">employee-service-client</a>. 
+	* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/eureka-server/employee-service">employee-service</a>. 
 	* <a href="https://github.com/pgananc/ejemplos-spring/tree/main/eureka-server/eureka-server">eureka-server</a>. 
 	
 
