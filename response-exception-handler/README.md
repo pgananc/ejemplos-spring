@@ -20,4 +20,4 @@ Handler para excepción de respuesta cuando no cumple una validación del modelo
   	- http://localhost:8080/api/v1/employees/Marcos
 
 # Soporte.
-pablosssss.ganan@gmail.com
+pablos.ganan@gmail.com
